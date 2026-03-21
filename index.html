@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lazymac API Store — Developer Tools & APIs</title>
+<meta name="description" content="20+ production-ready APIs and developer tools. Crypto signals, AI cost calculator, smart contract scanner, SEO analyzer, and more. REST API + MCP server.">
+<meta property="og:title" content="lazymac API Store">
+<meta property="og:description" content="20+ production-ready APIs. From crypto trading signals to smart contract auditing.">
+<meta property="og:type" content="website">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.6}
+.hero{text-align:center;padding:60px 20px 40px;background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460)}
+.hero h1{font-size:2.5em;background:linear-gradient(90deg,#00d2ff,#3a7bd5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+.hero p{font-size:1.2em;color:#888;max-width:600px;margin:0 auto}
+.stats{display:flex;justify-content:center;gap:40px;margin:30px 0;flex-wrap:wrap}
+.stat{text-align:center}
+.stat .num{font-size:2em;font-weight:bold;color:#3a7bd5}
+.stat .label{font-size:0.9em;color:#666}
+.grid{max-width:1200px;margin:0 auto;padding:20px;display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:20px}
+.card{background:#141414;border:1px solid #222;border-radius:12px;padding:24px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:#3a7bd5;transform:translateY(-2px)}
+.card.premium{border-color:#f59e0b}
+.card.premium .badge{background:#f59e0b;color:#000}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:0.75em;font-weight:bold;background:#3a7bd5;color:#fff;margin-bottom:10px}
+.card h3{font-size:1.2em;margin:8px 0}
+.card p{color:#888;font-size:0.9em;margin-bottom:15px}
+.card .price{font-size:1.3em;font-weight:bold;color:#00d2ff}
+.card .links{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.card .links a{display:inline-block;padding:6px 16px;border-radius:6px;font-size:0.85em;text-decoration:none;font-weight:500;transition:opacity .2s}
+.btn-primary{background:#3a7bd5;color:#fff}
+.btn-secondary{background:#222;color:#ccc;border:1px solid #333}
+.btn-premium{background:#f59e0b;color:#000}
+.card .links a:hover{opacity:0.8}
+.features{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.features span{background:#1a1a2e;padding:2px 8px;border-radius:4px;font-size:0.75em;color:#7aa2f7}
+.section-title{text-align:center;font-size:1.8em;margin:50px 0 20px;color:#fff}
+.section-subtitle{text-align:center;color:#666;margin-bottom:30px}
+footer{text-align:center;padding:40px;color:#444;font-size:0.85em;border-top:1px solid #1a1a1a;margin-top:40px}
+footer a{color:#3a7bd5;text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>lazymac API Store</h1>
+  <p>Production-ready APIs and developer tools. Every API includes REST endpoints + MCP server for AI agents.</p>
+  <div class="stats">
+    <div class="stat"><div class="num">23+</div><div class="label">Products</div></div>
+    <div class="stat"><div class="num">100+</div><div class="label">API Endpoints</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">External Dependencies</div></div>
+  </div>
+</div>
+
+<div class="section-title">Premium APIs</div>
+<div class="section-subtitle">Unique tools that don't exist anywhere else</div>
+
+<div class="grid">
+
+<div class="card premium">
+  <span class="badge premium">UNIQUE</span>
+  <h3>AI Cost Calculator API</h3>
+  <p>Compare costs across 14 AI models (GPT-4, Claude, Gemini, Llama, Mistral). Calculate per-request cost, monthly estimates, find cheapest model for your budget. The only API that does this.</p>
+  <div class="features"><span>14 Models</span><span>5 Providers</span><span>Budget Optimizer</span><span>Monthly Estimates</span></div>
+  <div class="price">$39 one-time / $29/mo API</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/ai-cost-calculator-api" class="btn-premium">GitHub</a>
+    <a href="https://github.com/lazymac2x/ai-cost-calculator-api#readme" class="btn-secondary">Docs</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">UNIQUE</span>
+  <h3>Smart Contract Scanner API</h3>
+  <p>Automated Solidity vulnerability detection. Finds reentrancy, overflow, access control, front-running and 10+ more issues. Professional audits cost $5K-$50K. This is $49.</p>
+  <div class="features"><span>13 Vulnerability Types</span><span>Risk Scoring</span><span>Fix Recommendations</span></div>
+  <div class="price">$49 one-time / $49/mo API</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/smart-contract-scanner-api" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">UNIQUE</span>
+  <h3>Startup Valuation API</h3>
+  <p>Calculate startup valuations using 6 professional methods: Revenue Multiple, DCF, Scorecard, Berkus, Comparable Analysis, Rule of 40. Covers 10+ industries.</p>
+  <div class="features"><span>6 Methods</span><span>10+ Industries</span><span>VC-Grade</span></div>
+  <div class="price">$29 one-time / $29/mo API</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/startup-valuation-api" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
+</div>
+
+<div class="section-title">Developer APIs</div>
+<div class="section-subtitle">Essential tools for every developer</div>
+
+<div class="grid">
+
+<div class="card">
+  <span class="badge">CRYPTO</span>
+  <h3>Crypto Signal API</h3>
+  <p>Real-time BUY/SELL/HOLD signals from Binance. 6 technical indicators: RSI, MACD, EMA, Bollinger Bands, StochRSI, Volume. Market screener for top 50 coins.</p>
+  <div class="price">$14.99</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/crypto-signal-api" class="btn-primary">GitHub</a>
+  </div>
+</div>
+
+<div class="card">
+  <span class="badge">KOREA</span>
+  <h3>Korea Public Data API</h3>
+  <p>Unified Korean data: Seoul weather, KRW exchange rates, holidays, transit, KOSPI/KOSDAQ. No API key needed.</p>
+  <div class="price">$14.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/korea-public-data-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">SEO</span>
+  <h3>SEO Analyzer API</h3>
+  <p>Score any webpage 0-100. Checks title, meta, headings, images, Open Graph, Schema.org, technical SEO. Compare two URLs.</p>
+  <div class="price">$14.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/seo-analyzer-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">NLP</span>
+  <h3>Text Analysis API</h3>
+  <p>Sentiment analysis, readability scores, keyword extraction, 7-language detection. All algorithmic, no AI API needed.</p>
+  <div class="price">$14.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/text-analysis-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">SCRAPING</span>
+  <h3>Web Scraper Toolkit</h3>
+  <p>Extract metadata, links, headlines, images, tables from any URL. Custom CSS selectors. Batch up to 10 URLs.</p>
+  <div class="price">$14.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/web-scraper-toolkit" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">SOCIAL</span>
+  <h3>Social Media Toolkit</h3>
+  <p>Hashtag generator, caption templates, best posting times, engagement calculator, content ideas for 8 niches.</p>
+  <div class="price">$14.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/social-media-toolkit" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">DATA</span>
+  <h3>Data Transform API</h3>
+  <p>JSON/CSV/XML converter. Flatten, filter, sort, pick fields, stats, validate. Zero dependencies.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/data-transform-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">QR</span>
+  <h3>QR Code API</h3>
+  <p>Generate QR codes: text, URLs, vCards, WiFi configs. PNG, SVG, base64. Custom colors and sizes.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/qr-code-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">DEVTOOLS</span>
+  <h3>Dev Crypto Toolkit</h3>
+  <p>JWT decode, hash (MD5/SHA256), base64, UUID, password generator, timestamps. Node.js built-in crypto.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/dev-crypto-toolkit" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">REGEX</span>
+  <h3>Regex Toolkit API</h3>
+  <p>Test, explain, validate regex. 17 common patterns (email, URL, phone, IP). Benchmark performance.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/regex-toolkit-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">GEO</span>
+  <h3>IP Geolocation API</h3>
+  <p>Lookup IP → country, city, ISP, timezone. Batch up to 100 IPs. Built-in cache.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/ip-geo-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">TIME</span>
+  <h3>Timezone API</h3>
+  <p>Convert between timezones, world clock, meeting planner for distributed teams.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/timezone-api" class="btn-primary">GitHub</a></div>
+</div>
+
+</div>
+
+<div class="section-title">Digital Products</div>
+
+<div class="grid">
+
+<div class="card">
+  <span class="badge">PROMPTS</span>
+  <h3>AI Prompt Engineering Pack</h3>
+  <p>70 battle-tested prompts for developers, marketers, and students. Works with ChatGPT, Claude, and any AI.</p>
+  <div class="price">$19.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/ai-prompt-engineering-pack" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">AUTOMATION</span>
+  <h3>n8n AI Workflow Pack</h3>
+  <p>5 production-ready n8n workflows: Crypto→Telegram, RSS→Social, AI Email Responder, Web Monitor, Daily Report.</p>
+  <div class="price">$29.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/ai-automation-workflows" class="btn-primary">GitHub</a></div>
+</div>
+
+</div>
+
+<footer>
+  <p>Built by <a href="https://github.com/lazymac2x">lazymac2x</a> — All APIs include REST endpoints + MCP server for AI agents</p>
+  <p style="margin-top:8px">Every product is self-hosted, zero external dependencies, production-ready</p>
+</footer>
+
+</body>
+</html>
