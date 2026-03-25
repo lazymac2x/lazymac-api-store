@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>lazymac API Store — Developer Tools & APIs</title>
-<meta name="description" content="20+ production-ready APIs and developer tools. Crypto signals, AI cost calculator, smart contract scanner, SEO analyzer, and more. REST API + MCP server.">
-<meta property="og:title" content="lazymac API Store">
-<meta property="og:description" content="20+ production-ready APIs. From crypto trading signals to smart contract auditing.">
+<meta name="description" content="29 production-ready APIs and developer tools. MCP servers, REST APIs, npm packages. AI cost calculator, smart contract scanner, project health scanner, and more.">
+<meta property="og:title" content="lazymac API Store — 29 Developer Tools">
+<meta property="og:description" content="29 production-ready APIs and MCP servers. From project health scanning to smart contract auditing. Zero dependencies.">
 <meta property="og:type" content="website">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -47,10 +47,62 @@ footer a{color:#3a7bd5;text-decoration:none}
   <h1>lazymac API Store</h1>
   <p>Production-ready APIs and developer tools. Every API includes REST endpoints + MCP server for AI agents.</p>
   <div class="stats">
-    <div class="stat"><div class="num">23+</div><div class="label">Products</div></div>
-    <div class="stat"><div class="num">100+</div><div class="label">API Endpoints</div></div>
+    <div class="stat"><div class="num">29</div><div class="label">Products</div></div>
+    <div class="stat"><div class="num">150+</div><div class="label">API Endpoints</div></div>
     <div class="stat"><div class="num">0</div><div class="label">External Dependencies</div></div>
   </div>
+</div>
+
+<div class="section-title">Premium MCP Servers</div>
+<div class="section-subtitle">AI-agent-ready tools for your development workflow</div>
+
+<div class="grid">
+
+<div class="card premium">
+  <span class="badge premium">NEW</span>
+  <h3>Project Health Scanner</h3>
+  <p>Point at any repo, get a 0-100 health score. Dependency vulnerabilities, hardcoded secrets, license conflicts, code quality, git health — one command, full report.</p>
+  <div class="features"><span>Health Score</span><span>Secret Detection</span><span>License Audit</span><span>Dependency Check</span></div>
+  <div class="price">npm i @lazymac/project-health-scanner</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/project-health-scanner" class="btn-premium">GitHub</a>
+    <a href="https://github.com/lazymac2x/project-health-scanner#readme" class="btn-secondary">Docs</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">NEW</span>
+  <h3>Codebase Doc Generator</h3>
+  <p>Auto-generates documentation from any codebase: architecture overview, dependency graph, API surface, complete README. 100% local, no AI APIs. Reduces LLM context usage by 70%.</p>
+  <div class="features"><span>Architecture Maps</span><span>Dependency Graphs</span><span>API Docs</span><span>README Gen</span></div>
+  <div class="price">Free / MCP Server</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/codebase-doc-generator" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">NEW</span>
+  <h3>Smart Commit Changelog</h3>
+  <p>Reads git diff, generates semantic commit messages and changelogs automatically. Follows Conventional Commits. Zero external APIs.</p>
+  <div class="features"><span>Semantic Commits</span><span>Changelog Gen</span><span>Conventional Commits</span></div>
+  <div class="price">npm i @lazymac/smart-commit-changelog</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/smart-commit-changelog" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">NEW</span>
+  <h3>API Mock Generator</h3>
+  <p>Generate mock API servers from OpenAPI specs or natural language descriptions. Describe your API in English, get a running mock server instantly.</p>
+  <div class="features"><span>OpenAPI Support</span><span>Natural Language</span><span>Instant Server</span></div>
+  <div class="price">npm i @lazymac/api-mock-generator</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/api-mock-generator" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
 </div>
 
 <div class="section-title">Premium APIs</div>
@@ -89,6 +141,17 @@ footer a{color:#3a7bd5;text-decoration:none}
   <div class="price">$29 one-time / $29/mo API</div>
   <div class="links">
     <a href="https://github.com/lazymac2x/startup-valuation-api" class="btn-premium">GitHub</a>
+  </div>
+</div>
+
+<div class="card premium">
+  <span class="badge premium">NEW</span>
+  <h3>Crypto Tax Calculator API</h3>
+  <p>Calculate crypto capital gains across your portfolio. FIFO, LIFO, and Average Cost basis methods. Short-term vs long-term gains. Tax-season ready.</p>
+  <div class="features"><span>FIFO</span><span>LIFO</span><span>Average Cost</span><span>Capital Gains</span></div>
+  <div class="price">npm i @lazymac/crypto-tax-calculator-api</div>
+  <div class="links">
+    <a href="https://github.com/lazymac2x/crypto-tax-calculator-api" class="btn-premium">GitHub</a>
   </div>
 </div>
 
@@ -197,6 +260,38 @@ footer a{color:#3a7bd5;text-decoration:none}
   <div class="links"><a href="https://github.com/lazymac2x/timezone-api" class="btn-primary">GitHub</a></div>
 </div>
 
+<div class="card">
+  <span class="badge">SECURITY</span>
+  <h3>Password Strength API</h3>
+  <p>Analyze password strength with entropy calculation, crack time estimates, and improvement suggestions.</p>
+  <div class="price">Free</div>
+  <div class="links"><a href="https://github.com/lazymac2x/password-strength-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">VALIDATION</span>
+  <h3>Email Validator API</h3>
+  <p>Validate email addresses — syntax, MX records, disposable domain detection, and more.</p>
+  <div class="price">Free</div>
+  <div class="links"><a href="https://github.com/lazymac2x/email-validator-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">JSON</span>
+  <h3>JSON Schema API</h3>
+  <p>Validate JSON against schemas, generate schemas from data, convert between formats.</p>
+  <div class="price">Free</div>
+  <div class="links"><a href="https://github.com/lazymac2x/json-schema-api" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">IMAGE</span>
+  <h3>Placeholder Image API</h3>
+  <p>Dynamic placeholder images with custom sizes, colors, and text. Perfect for mockups and prototypes.</p>
+  <div class="price">$9.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/placeholder-image-api" class="btn-primary">GitHub</a></div>
+</div>
+
 </div>
 
 <div class="section-title">Digital Products</div>
@@ -214,9 +309,17 @@ footer a{color:#3a7bd5;text-decoration:none}
 <div class="card">
   <span class="badge">AUTOMATION</span>
   <h3>n8n AI Workflow Pack</h3>
-  <p>5 production-ready n8n workflows: Crypto→Telegram, RSS→Social, AI Email Responder, Web Monitor, Daily Report.</p>
+  <p>5 production-ready n8n workflows: Crypto to Telegram, RSS to Social, AI Email Responder, Web Monitor, Daily Report.</p>
   <div class="price">$29.99</div>
   <div class="links"><a href="https://github.com/lazymac2x/ai-automation-workflows" class="btn-primary">GitHub</a></div>
+</div>
+
+<div class="card">
+  <span class="badge">AI RULES</span>
+  <h3>Cursor/Claude Rules Pack</h3>
+  <p>Battle-tested AI coding rules for Cursor, Claude Code, and GitHub Copilot. Get better code generation with proven rule configurations.</p>
+  <div class="price">$19.99</div>
+  <div class="links"><a href="https://github.com/lazymac2x/cursor-claude-rules-pack" class="btn-primary">GitHub</a></div>
 </div>
 
 </div>
